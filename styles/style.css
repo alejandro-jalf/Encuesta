@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+#centro{
+    padding: 130px;
+}
+
+#body{
+    background: #fff;
+    border: 1px solid #427bb4;
+    padding: 80px 15% 80px;
+    border-radius: 10px;
+}
+
+#superi{
+    padding: 30px 50px 30px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.frase{
+    font-family: "Lato";
+    font-size: 30px;
+    text-align: center;
+    /* background: #1e5d63; */
+}
+
+
+
+/* .btn {
+    background: #184e6d;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 18px;
+    border-radius: 5px;
+} */
+
+input{
+    background: #1e5d63;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "arial";
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px ;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px){
+    .frase{
+        font-size: 20px;
+    }
+    #body{
+        padding: 10px 5px 10px;
+    }
+    #centro{
+        padding: 30px;
+    }
+}
